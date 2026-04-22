@@ -1,9 +1,3 @@
-#  Frontend Developer
-
-
-
----
-
 
 <div align="center">
   <h2 style="border-bottom: 1px solid #d8dee4; padding-bottom: 8px;">Tech Stacks</h2>
