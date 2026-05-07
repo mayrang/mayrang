@@ -1,5 +1,15 @@
 <div align="center">
 
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=mayrang&fontSize=60&fontAlignY=35&desc=Frontend%20Engineer%20%C2%B7%20Open%20Source%20Contributor&descSize=18&descAlignY=58" alt="header" />
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=600&color=3178C6&center=true&vCenter=true&width=520&lines=Frontend+Engineer;Lexical+Core+Contributor;Open+Source+Enthusiast" alt="typing" />
+  </a>
+
+</div>
+
+<div align="center">
+
   <p>
     I am a Frontend Engineer with a background in open-source contributions to rich-text editors and text-rendering libraries.<br/>
     Currently, I am seeking frontend developer positions.<br/>
@@ -13,6 +23,14 @@
     장기적으로는 리치 텍스트 에디터 코어 개발에 집중하여,<br/>
     Lexical과 같은 프로젝트에 깊이 기여하는 것을 목표로 합니다.
   </p>
+
+</div>
+
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Lexical-12_PRs_merged-3178C6?style=for-the-badge&logo=meta&logoColor=white" alt="Lexical contributions" />
+  <img src="https://img.shields.io/badge/Pretext_%E2%98%85_46k-3_landed-FF6B35?style=for-the-badge" alt="Pretext contributions" />
+  <img src="https://img.shields.io/badge/Open_Source-Active_Contributor-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="OSS active" />
 
 </div>
 
@@ -69,6 +87,10 @@ Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR�
 <div align="center">
   <h2>Stats</h2>
   <p>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayrang&theme=tokyonight" height="150px"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayrang&theme=tokyonight" height="170px"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayrang&theme=tokyonight&layout=compact&hide=html,css&langs_count=8" height="170px"/>
+  </p>
+  <p>
+    <img src="https://streak-stats.demolab.com/?user=mayrang&theme=tokyonight" height="170px"/>
   </p>
 </div>
