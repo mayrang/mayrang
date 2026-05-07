@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=mayrang&fontSize=60&fontAlignY=35&desc=Frontend%20Engineer%20%C2%B7%20Open%20Source%20Contributor&descSize=18&descAlignY=58" alt="header" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=600&color=3178C6&center=true&vCenter=true&width=520&lines=Frontend+Engineer;Lexical+Core+Contributor;Open+Source+Enthusiast" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=600&color=3178C6&center=true&vCenter=true&width=520&lines=Frontend+Engineer;Contributing+to+Lexical;Open+Source+Enthusiast" alt="typing" />
   </a>
 
 </div>
@@ -91,6 +91,6 @@ Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR�
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayrang&theme=tokyonight&layout=compact&hide=html,css&langs_count=8" height="170px"/>
   </p>
   <p>
-    <img src="https://streak-stats.demolab.com/?user=mayrang&theme=tokyonight" height="170px"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=mayrang&theme=tokyonight&show_icons=true&hide_border=false&count_private=true" height="170px"/>
   </p>
 </div>
