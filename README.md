@@ -3,15 +3,15 @@
   <p>
     I am a Frontend Engineer with a background in open-source contributions to rich-text editors and text-rendering libraries.<br/>
     Currently, I am seeking frontend developer positions.<br/>
-    My long-term goal is to specialize in IME and rich-text editor internals,<br/>
-    building text infrastructure that handles every language correctly.
+    My long-term goal is to specialize in rich-text editor core development,<br/>
+    contributing deeply to projects like Lexical.
   </p>
 
   <p>
     리치 텍스트 에디터와 텍스트 렌더링 라이브러리 오픈소스에 기여해 온 프론트엔드 엔지니어입니다.<br/>
     현재 프론트엔드 개발자 포지션을 찾고 있습니다.<br/>
-    장기적으로는 IME와 리치 텍스트 에디터 내부 구조에 집중하여,<br/>
-    모든 언어를 올바르게 처리하는 텍스트 인프라를 만드는 것을 목표로 합니다.
+    장기적으로는 리치 텍스트 에디터 코어 개발에 집중하여,<br/>
+    Lexical과 같은 프로젝트에 깊이 기여하는 것을 목표로 합니다.
   </p>
 
 </div>
@@ -20,15 +20,15 @@
 
 ## Open Source Contributions
 
-### [facebook/lexical](https://github.com/facebook/lexical) — 10 merged · 1 in review
+### [facebook/lexical](https://github.com/facebook/lexical) — 12 merged · 3 in review
 Meta의 리치 텍스트 에디터 프레임워크. 코어 패키지(`lexical`, `lexical-list`, `lexical-rich-text`, `lexical-markdown`)와 playground 양쪽에 기여.
 
 Highlights
+- [#8474](https://github.com/facebook/lexical/pull/8474) Cache `RangeSelection.isBackward()` result on the instance
+- [#8466](https://github.com/facebook/lexical/pull/8466) Resolve `--lexical-indent-base-value` via CSS `var()` instead of pre-computing in JS
 - [#8441](https://github.com/facebook/lexical/pull/8441) Reuse DOM when reconciling cross-parent node moves
 - [#8412](https://github.com/facebook/lexical/pull/8412) Import `dir` attribute in `importDOM`
 - [#8395](https://github.com/facebook/lexical/pull/8395) Add `$convertSelectionToMarkdownString` API
-- [#8445](https://github.com/facebook/lexical/pull/8445) Outdent space-indented code lines (lexical-code)
-- [#8388](https://github.com/facebook/lexical/pull/8388) Refactor FloatingLinkEditor positioning with `@floating-ui/react`
 
 ### [chenglou/pretext](https://github.com/chenglou/pretext) — 3 contributions landed (★46k)
 Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR을 close하고 본인 커밋에 공동작업자로 합치는 방식이라, 기여는 PR이 아닌 커밋 SHA로 들어감.
