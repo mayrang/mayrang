@@ -88,9 +88,10 @@ Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR�
   <h2>Stats</h2>
   <p>
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mayrang&theme=tokyonight" height="170px"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayrang&theme=tokyonight&layout=compact&hide=html,css&langs_count=8" height="170px"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mayrang&theme=tokyonight" height="170px"/>
   </p>
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=mayrang&theme=tokyonight&show_icons=true&hide_border=false&count_private=true" height="170px"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mayrang&theme=tokyonight" height="170px"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mayrang&theme=tokyonight" height="170px"/>
   </p>
 </div>
