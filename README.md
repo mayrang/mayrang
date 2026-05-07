@@ -66,7 +66,7 @@ Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR�
 <div align="center">
   <h2>Contact</h2>
   <p>
-    <a href="mailto:pgss0626@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+    <a href="mailto:pkss0626@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white"></a>
     <a href="https://www.linkedin.com/in/%EA%B1%B4%EC%83%81-%EB%B0%95-396933303"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
     <a href="https://velog.io/@mayrang/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white"></a>
   </p>
