@@ -60,7 +60,6 @@ Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR�
 - [vitest-dev/vitest #10188](https://github.com/vitest-dev/vitest/pull/10188) — `fix(snapshot): treat empty string as valid snapshot`
 - [vitest-dev/ivya #17](https://github.com/vitest-dev/ivya/pull/17) — `fix: support empty template in parseAriaTemplate`
 - [recharts/recharts #7273](https://github.com/recharts/recharts/pull/7273) — `fix: use originalDataIndex for tooltip dispatch in Bar`
-- [adobe/react-spectrum #9970](https://github.com/adobe/react-spectrum/pull/9970) — Button/Input hover state fix *(in review)*
 
 ---
 
