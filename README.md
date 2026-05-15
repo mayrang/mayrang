@@ -28,7 +28,7 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Lexical-12_PRs_merged-3178C6?style=for-the-badge&logo=meta&logoColor=white" alt="Lexical contributions" />
+  <img src="https://img.shields.io/badge/Lexical-20_PRs_merged-3178C6?style=for-the-badge&logo=meta&logoColor=white" alt="Lexical contributions" />
   <img src="https://img.shields.io/badge/Pretext_%E2%98%85_46k-3_landed-FF6B35?style=for-the-badge" alt="Pretext contributions" />
   <img src="https://img.shields.io/badge/Open_Source-Active_Contributor-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="OSS active" />
 
@@ -38,15 +38,16 @@
 
 ## Open Source Contributions
 
-### [facebook/lexical](https://github.com/facebook/lexical) — 12 merged · 3 in review
+### [facebook/lexical](https://github.com/facebook/lexical) — 20 merged
 Meta의 리치 텍스트 에디터 프레임워크. 코어 패키지(`lexical`, `lexical-list`, `lexical-rich-text`, `lexical-markdown`)와 playground 양쪽에 기여.
 
 Highlights
-- [#8474](https://github.com/facebook/lexical/pull/8474) Cache `RangeSelection.isBackward()` result on the instance
-- [#8466](https://github.com/facebook/lexical/pull/8466) Resolve `--lexical-indent-base-value` via CSS `var()` instead of pre-computing in JS
-- [#8441](https://github.com/facebook/lexical/pull/8441) Reuse DOM when reconciling cross-parent node moves
-- [#8412](https://github.com/facebook/lexical/pull/8412) Import `dir` attribute in `importDOM`
-- [#8395](https://github.com/facebook/lexical/pull/8395) Add `$convertSelectionToMarkdownString` API
+- [#8482](https://github.com/facebook/lexical/pull/8482) Children fast path with suffix-incremental cache update in `$reconcileChildren` — O(N) → O(K) for typing-at-end
+- [#8481](https://github.com/facebook/lexical/pull/8481) Adopt GenMap copy-on-write for `NodeMap` and reconciler `keyToDOMMap`
+- [#8395](https://github.com/facebook/lexical/pull/8395) Add `$convertSelectionToMarkdownString` public API
+- [#8501](https://github.com/facebook/lexical/pull/8501) Adjust selection when `removeFromParent` callers move a node out of its parent
+- [#8493](https://github.com/facebook/lexical/pull/8493) Backspace at block start preserves the current block
+- [#8503](https://github.com/facebook/lexical/pull/8503) Apply markdown shortcuts on composition-committed triggers
 
 ### [chenglou/pretext](https://github.com/chenglou/pretext) — 3 contributions landed (★46k)
 Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR을 close하고 본인 커밋에 공동작업자로 합치는 방식이라, 기여는 PR이 아닌 커밋 SHA로 들어감.
