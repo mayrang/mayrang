@@ -38,7 +38,7 @@
 
 ## Open Source Contributions
 
-### [facebook/lexical](https://github.com/facebook/lexical) — 20 merged
+### [facebook/lexical](https://github.com/facebook/lexical) — 20 merged (★23k)
 Meta의 리치 텍스트 에디터 프레임워크. 코어 패키지(`lexical`, `lexical-list`, `lexical-rich-text`, `lexical-markdown`)와 playground 양쪽에 기여.
 
 Highlights
@@ -49,7 +49,7 @@ Highlights
 - [#8493](https://github.com/facebook/lexical/pull/8493) Backspace at block start preserves the current block
 - [#8503](https://github.com/facebook/lexical/pull/8503) Apply markdown shortcuts on composition-committed triggers
 
-### [chenglou/pretext](https://github.com/chenglou/pretext) — 3 contributions landed (★46k)
+### [chenglou/pretext](https://github.com/chenglou/pretext) — 3 contributions landed (★47k)
 Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR을 close하고 본인 커밋에 공동작업자로 합치는 방식이라, 기여는 PR이 아닌 커밋 SHA로 들어감.
 
 - [`1a8b2ae`](https://github.com/chenglou/pretext/commit/1a8b2ae) feat: add `letterSpacing` support
