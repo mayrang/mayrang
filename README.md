@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=mayrang&fontSize=60&fontAlignY=35&desc=Frontend%20Engineer%20%C2%B7%20Open%20Source%20Contributor&descSize=18&descAlignY=58" alt="header" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=600&color=3178C6&center=true&vCenter=true&width=520&lines=Frontend+Engineer;Contributing+to+Lexical;Open+Source+Enthusiast" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=600&color=3178C6&center=true&vCenter=true&width=520&lines=Frontend+Engineer;Contributing+to+Lexical;Author+of+formdraft;Open+Source+Enthusiast" alt="typing" />
   </a>
 
 </div>
@@ -28,28 +28,42 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Lexical-20_PRs_merged-3178C6?style=for-the-badge&logo=meta&logoColor=white" alt="Lexical contributions" />
-  <img src="https://img.shields.io/badge/Pretext_%E2%98%85_46k-3_landed-FF6B35?style=for-the-badge" alt="Pretext contributions" />
+  <img src="https://img.shields.io/badge/Lexical-28_PRs_merged-3178C6?style=for-the-badge&logo=meta&logoColor=white" alt="Lexical contributions" />
+  <img src="https://img.shields.io/badge/Pretext_%E2%98%85_47k-3_landed-FF6B35?style=for-the-badge" alt="Pretext contributions" />
+  <a href="https://www.npmjs.com/package/formdraft"><img src="https://img.shields.io/badge/formdraft-v0.3.0_on_npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="formdraft on npm" /></a>
   <img src="https://img.shields.io/badge/Open_Source-Active_Contributor-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="OSS active" />
 
 </div>
 
 ---
 
+## Projects
+
+### [formdraft](https://github.com/mayrang/formdraft) — React form auto-save library
+`v0.3.0` · 5.8 KB brotli · zero runtime deps · 216 unit + 87 Playwright e2e (Chromium / Firefox / WebKit)
+
+폼이 새로고침 / 오프라인 / 멀티탭 충돌에서 살아남게 만드는 React 라이브러리. 매번 프로젝트마다 다시 짜던 ~700줄짜리 자체 구현을 패키지로 묶음. React Hook Form / Formik / TanStack Form 어댑터 포함, `autoAdapter`로 localStorage → IndexedDB 자동 마이그레이션, `<ConflictDialog>` 멀티탭 충돌 머지 UI, `fieldsNeedingReentry`로 비번 reentry 알림까지.
+
+- npm: [`formdraft`](https://www.npmjs.com/package/formdraft)
+- `npm install formdraft`
+
+---
+
 ## Open Source Contributions
 
-### [facebook/lexical](https://github.com/facebook/lexical) — 20 merged (★23k)
-Meta의 리치 텍스트 에디터 프레임워크. 코어 패키지(`lexical`, `lexical-list`, `lexical-rich-text`, `lexical-markdown`)와 playground 양쪽에 기여.
+### [facebook/lexical](https://github.com/facebook/lexical) — 28 merged (★23k)
+Meta의 리치 텍스트 에디터 프레임워크. 코어 패키지(`lexical`, `lexical-list`, `lexical-rich-text`, `lexical-markdown`, `lexical-code-core`)와 playground 양쪽에 기여.
 
 Highlights
-- [#8482](https://github.com/facebook/lexical/pull/8482) Children fast path with suffix-incremental cache update in `$reconcileChildren` — O(N) → O(K) for typing-at-end
-- [#8481](https://github.com/facebook/lexical/pull/8481) Adopt GenMap copy-on-write for `NodeMap` and reconciler `keyToDOMMap`
+- [#8519](https://github.com/facebook/lexical/pull/8519) **Breaking** · Generalize `DOMSlot` and add `DOMRenderExtension` override surface — 5 packages, opens up `TextNode` DOM scoping & external HTML rendering hooks
+- [#8482](https://github.com/facebook/lexical/pull/8482) **Perf** · Children fast path with suffix-incremental cache update in `$reconcileChildren` — O(N) → O(K) for typing-at-end
+- [#8481](https://github.com/facebook/lexical/pull/8481) **Perf** · Adopt GenMap copy-on-write for `NodeMap` and reconciler `keyToDOMMap`
+- [#8542](https://github.com/facebook/lexical/pull/8542) Detect infinite recursion in update listeners — per-editor cascade counter prevents the documented "watch out for infinite loops" footgun from hanging the browser
+- [#8558](https://github.com/facebook/lexical/pull/8558) Bug Fix · Cursor stuck before leading inline `DecoratorNode` — cross-package selection-engine fix (lexical / rich-text / code-core)
+- [#8505](https://github.com/facebook/lexical/pull/8505) Refactor · Centralize replace-area selection mapping + bulk splice across `lexical` / `list` / `selection` / `link`
 - [#8395](https://github.com/facebook/lexical/pull/8395) Add `$convertSelectionToMarkdownString` public API
-- [#8501](https://github.com/facebook/lexical/pull/8501) Adjust selection when `removeFromParent` callers move a node out of its parent
-- [#8493](https://github.com/facebook/lexical/pull/8493) Backspace at block start preserves the current block
-- [#8503](https://github.com/facebook/lexical/pull/8503) Apply markdown shortcuts on composition-committed triggers
 
-### [chenglou/pretext](https://github.com/chenglou/pretext) — 3 contributions landed (★47k)
+### [chenglou/pretext](https://github.com/chenglou/pretext) — 3 contributions landed (★48k)
 Fast, accurate text measurement & layout 라이브러리. 메인테이너가 PR을 close하고 본인 커밋에 공동작업자로 합치는 방식이라, 기여는 PR이 아닌 커밋 SHA로 들어감.
 
 - [`1a8b2ae`](https://github.com/chenglou/pretext/commit/1a8b2ae) feat: add `letterSpacing` support
